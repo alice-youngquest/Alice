@@ -11,7 +11,7 @@ module.exports = function App (props) {
   return (
     <div>
 
-      <div className='navbar'>
+      <div id='navbar'>
         <a href='/'>HOME</a> |
         <a href='/blog'>BLOG</a> |
         <a href='/gallery'>GALLERY</a>

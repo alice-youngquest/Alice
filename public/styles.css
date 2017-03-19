@@ -1,22 +1,22 @@
 @-webkit-keyframes colour{
   0%{
-    background:#19dcea
+    background:#EF9A9A
   }
 
   25%{
-    background:#b22cff
+    background:#FF8A80
   }
 
   50%{
-    background:#ea2222
+    background:#FF5252
   }
 
   75%{
-    background:#f5be10
+    background:#FF1744
   }
 
   100%{
-    background:#3bd80d
+    background:#D50000
   }
   }
 
@@ -113,4 +113,8 @@ h1{
   100% {
     -webkit-transform: scale(1);
   }
+}
+
+a{
+  color: black;
 }
