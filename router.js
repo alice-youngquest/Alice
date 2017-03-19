@@ -5,9 +5,6 @@ var Gallery = require('./components/gallery')
 var Blog = require('./components/blog')
 var App = require('./components/app')
 
-
-
-
 var router = Router({ default: '/' }, [
   ['/', () => Home ],
   ['/gallery', () => Gallery],
