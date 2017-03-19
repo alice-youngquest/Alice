@@ -2,6 +2,6 @@ var React = require('react')
 
 module.exports = function Gallery (){
   return (
-    <h1>pics lotsa pics!</h1>
+    <h2>pics lotsa pics!</h2>
   )
 }
