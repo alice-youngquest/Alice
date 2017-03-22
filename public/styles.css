@@ -41,8 +41,8 @@ h1{
   animation: text-focus-in 7s 0s;
   text-align: center;
   position: absolute;
-    right: 665px;
-    top: 150px;
+  right: 670px;
+  top: 150px;
   font-family: courier;
 
 }
@@ -117,4 +117,30 @@ h1{
 
 a{
   color: black;
+}
+
+@-webkit-keyframes text-pop-up-top{
+  0%{
+    -webkit-transform:translateY(0);
+    transform:translateY(0);
+    -webkit-transform-origin:50% 50%;
+    transform-origin:50% 50%;
+    text-shadow:none}
+
+  100%{
+    -webkit-transform:translateY(-50px);
+    transform:translateY(-50px);
+    -webkit-transform-origin:50% 50%;
+    transform-origin:50% 50%;
+    text-shadow:0 1px 0 #ccc,0 2px 0 #ccc,0 3px 0 #ccc,0 4px 0 #ccc,0 5px 0 #ccc,0 6px 0 #ccc,0 7px 0 #ccc,0 8px 0 #ccc,0 9px 0 #ccc,0 50px 30px rgba(0,0,0,.3)
+    }
+  }
+
+h2{
+  animation: text-pop-up-top 7s 0s;
+  text-align: center;
+  position: absolute;
+  right: 600px;
+  top: 150px;
+  font-family: courier;
 }
